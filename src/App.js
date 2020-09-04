@@ -5,10 +5,10 @@ import { Container } from 'reactstrap';
 
 function App() {
   return (
-    <Container>
+    <Container className="themed-container" >
      <div className="App">
         <h1 className="mx-auto text-primary" style={{width : '200px'}}> Hello world! </h1>
-        <Login/> 
+        <Login className="row"/> 
       </div>
     </Container>
   );
