@@ -1,3 +1,4 @@
+// This file is used to connect our application to the firebase
 import firebase from 'firebase';
 import firebaseConfig from './FirebaseConfig';
 
